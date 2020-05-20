@@ -1,0 +1,44 @@
+h1 {
+    color: black;
+    text-align: center;
+ }
+
+ Body{
+    font-family: 'Oswald', sans-serif;
+
+ }
+
+ h2{
+    background-color: rgba(255, 235, 205, 1);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    top: 10px;
+      }
+img.resize {
+    max-width:50%;
+    max-height:50%;
+      }
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      }
+#Banner{
+    background-image: url(carbonara.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+}
+.content {
+    border: 3px solid black;
+    position: relative;
+    top: 40px;
+    width: 400px;
+    margin: 0 auto;
+}
